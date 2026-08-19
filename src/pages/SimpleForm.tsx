@@ -17,6 +17,7 @@ const ThemeForm = () => {
   const [Inpt, setInpt] = useState<string>("");
   const [Item, setItem] = useState<Item[]>([]);
   const [EditText, setEditText] = useState<string>("");
+  const [EditingId, setEditingId] = useState<number | null>(null);
 
 
   const handlechange = (e:ChangeEvent<HTMLInputElement>)=>{
